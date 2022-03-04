@@ -27,7 +27,7 @@ function Home() {
             <span className="teamlabel">STADIUM :</span> Aktepe Stadium
           </div>
           <div>
-            <span className="teamlabel">CAPACITY :</span> 42.000
+            <span className="teamlabel">CAPACITY :</span> 42.987
           </div>
           <div>
             <span className="teamlabel">HEAD COACH :</span> Alper Aktepe
