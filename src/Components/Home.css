@@ -1,0 +1,65 @@
+
+.symbol{
+  width: 240px;
+  height: 200px;
+}
+.logohome{
+  display: flex;
+justify-content: center;
+}
+.teaminfos{
+
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+
+}
+.teamlabel{
+  font-weight: bold;
+}
+.kits{
+  text-align: center;
+}
+.description{
+
+  width: 75%;
+  text-align: center;
+  margin: 3% 20%;
+  font-size: 18px;
+ 
+}
+.img-kits{
+ width: 300px;
+ height: 600px;
+}
+
+.homeImages{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 5%;
+
+}
+.fan{
+  width: 300px;
+  border-radius: 6px;
+
+}
+.stadium{
+ 
+    width: 300px;
+    border-radius: 6px;
+
+ 
+}
+
+@media only screen and (max-width: 1150px) {
+  .fan{
+    display: none;
+  }
+  .stadium{
+    display: none;
+  }
+}

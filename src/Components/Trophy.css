@@ -1,0 +1,16 @@
+.cup{
+    width:440px;
+    height: 400px;
+    
+}
+.cupcontainer{
+    margin: 30px;
+    display: inline-flex;
+}
+.cuptitle{
+    text-align: center;
+    font-weight: bold;
+    color:#000000;
+    font-size: 18px;
+    font-family: Avenir Roman,sans-serif;
+}
