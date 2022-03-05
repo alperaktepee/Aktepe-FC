@@ -3,7 +3,7 @@ import "./SquadItem.css";
 
 function SquadItem(props) {
   return (
-    <div className="container">
+    <div className="containerplayers">
       <div className="players">
         <div className="imagesplayers">{props.img}</div>
         <div className="shirtandname">

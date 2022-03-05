@@ -55,11 +55,41 @@ justify-content: center;
  
 }
 
+
 @media only screen and (max-width: 1150px) {
   .fan{
     display: none;
   }
   .stadium{
     display: none;
+  }
+  
+
+}
+@media only screen and (max-width: 850px) {
+
+  .symbol{
+    width:120px;
+    height: 100px;
+  }
+
+  .teaminfos{
+    font-size: 12px;
+  }
+  .description{
+    text-align: justify;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 12px;
+  }
+  .seasonkitstitle{
+    font-size: 18px;
+  }
+  .homeawaykits{
+    font-size: 14px;
+  }
+  .img-kits{
+    width:150px;
+    height:300px;
   }
 }

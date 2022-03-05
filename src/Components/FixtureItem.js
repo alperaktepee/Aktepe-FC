@@ -14,8 +14,8 @@ function FixtureItem(props) {
         <div className="fixture-date__month">{month}</div>
         <div className="fixture-date__day">{day}</div>
       </div>
-       <h2>{props.team}  </h2> 
-        <div className="fixture-item__result"> {props.status} {props.result}  {props.score} </div>
+       <h2 className="rivalteam">{props.team}  </h2> 
+        <div className="fixture-item__result"> <div>{props.status} </div><div>{props.result}</div><div>{props.score}</div>  </div>
         
     
     </div>

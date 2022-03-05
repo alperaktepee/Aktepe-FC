@@ -7,16 +7,15 @@
   margin: 1rem 0;
   border-radius: 8px;
   color: white;
-/* Created with https://www.css-gradient.com */
-background: #CD1725;
-/* background: -webkit-linear-gradient(top left, #CD1725, #CC5A1B);
+  /* Created with https://www.css-gradient.com */
+  background: #cd1725;
+  /* background: -webkit-linear-gradient(top left, #CD1725, #CC5A1B);
 background: -moz-linear-gradient(top left, #CD1725, #CC5A1B);
 background: linear-gradient(to bottom right, #CD1725, #CC5A1B); */
-  width: 40%;
-  margin: 10px 30%;
+  width: 60%;
+  margin: 10px auto;
+
 }
-
-
 
 .fixture-item__result {
   font-size: 1rem;
@@ -25,11 +24,12 @@ background: linear-gradient(to bottom right, #CD1725, #CC5A1B); */
   background: white;
   padding: 1rem;
   border-radius: 12px;
-  margin:14px;
+  margin: 14px;
   display: flex;
   align-items: center;
- height: 10px;
-
+  justify-content: center;
+  height: 40px;
+  flex-direction: column;
 }
 .fixture-date {
   display: flex;
@@ -51,4 +51,145 @@ background: linear-gradient(to bottom right, #CD1725, #CC5A1B); */
 .fixture-date__day {
   font-size: 2rem;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1100px) {
+  .fixture-item {
+    /* background: -webkit-linear-gradient(top left, #CD1725, #CC5A1B);
+background: -moz-linear-gradient(top left, #CD1725, #CC5A1B);
+background: linear-gradient(to bottom right, #CD1725, #CC5A1B); */
+    width: 80%;
+    margin: 10px 80px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .fixture-item {
+    /* background: -webkit-linear-gradient(top left, #CD1725, #CC5A1B);
+background: -moz-linear-gradient(top left, #CD1725, #CC5A1B);
+background: linear-gradient(to bottom right, #CD1725, #CC5A1B); */
+    width: 80%;
+    margin: 10px 50px;
+  }
+  .rivalteam {
+    margin: 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .fixture-item {
+    /* background: -webkit-linear-gradient(top left, #CD1725, #CC5A1B);
+background: -moz-linear-gradient(top left, #CD1725, #CC5A1B);
+background: linear-gradient(to bottom right, #CD1725, #CC5A1B); */
+    width: 80%;
+    margin: 10px 50px;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .fixture-item {
+    /* background: -webkit-linear-gradient(top left, #CD1725, #CC5A1B);
+background: -moz-linear-gradient(top left, #CD1725, #CC5A1B);
+background: linear-gradient(to bottom right, #CD1725, #CC5A1B); */
+    width: 90%;
+    margin: 10px 15px;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .fixture-item {
+    /* background: -webkit-linear-gradient(top left, #CD1725, #CC5A1B);
+background: -moz-linear-gradient(top left, #CD1725, #CC5A1B);
+background: linear-gradient(to bottom right, #CD1725, #CC5A1B); */
+    width: 90%;
+    margin: 10px 15px;
+    font-size: 0.8rem;
+  }
+  .fixture-date {
+    display: flex;
+    flex-direction: column;
+    width: 3.5rem;
+    height: 4rem;
+    border: 1px solid white;
+    background: white;
+
+    color: #aa0000;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  .fixture-date__month {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  .fixture-date__day {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  .fixture-item__result {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #aa0000;
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    margin: 14px;
+    display: flex;
+    align-items: center;
+    height: 10px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .fixture-item {
+    width: 90%;
+    margin: 10px 2px;
+    font-size: 0.5rem;
+
+  }
+
+  .fixture-date {
+    display: flex;
+    flex-direction: column;
+    width: 3.5rem;
+    height: 3rem;
+    border: 1px solid white;
+    background: white;
+
+    color: #aa0000;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  .fixture-date__month {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  .fixture-date__day {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  .fixture-item__result {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #aa0000;
+    background: white;
+    padding: 0.8rem;
+    border-radius: 12px;
+    margin: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    margin-right:0px;
+  }
+  .rivalteam {
+    margin: 0;
+    font-size: 9px;
+  }
+  .fixture-filter {
+    font-size: 12px;
+    margin: 0 -30px;
+  }
 }

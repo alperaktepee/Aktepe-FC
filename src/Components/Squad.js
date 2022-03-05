@@ -247,8 +247,8 @@ function Squad() {
     },
     {
       img: <img src={Dembele} className="rankin" alt="Dembélé" />,
-      shirtNumber: 34,
-      name: "Karamoko Dembélé",
+      shirtNumber:34,
+      name:"Karamoko Dembélé",
       position: "RWF",
       nationality: "England",
     },

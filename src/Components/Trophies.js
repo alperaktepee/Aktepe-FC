@@ -63,15 +63,15 @@ function Trophies() {
     <div className="trophies">
       <div className="trophies-header">
         <h1>
-          Papa John's Trophy Cup : X{papaCounter}{" "}
+          Papa John's Trophy Cup X{papaCounter}{" "}
           {String.fromCodePoint(x).repeat(papaCounter)}
         </h1>
         <h1>
-          English Football League Two : X{efltwoCounter}{" "}
+          English Football League Two X{efltwoCounter}{" "}
           {String.fromCodePoint(x).repeat(efltwoCounter)}
         </h1>
         <h1>
-          English Football League One : X{efloneCounter}{" "}
+          English Football League One X{efloneCounter}{" "}
           {String.fromCodePoint(x).repeat(efloneCounter)}
         </h1>
       </div>

@@ -33,8 +33,7 @@ function Home() {
             <span className="teamlabel">HEAD COACH :</span> Alper Aktepe
           </div>
           <div>
-            <span className="teamlabel">LEAGUE :</span> England Football League
-            One
+            <span className="teamlabel">LEAGUE :</span> EFL Championship
           </div>
           <div>
             <span className="teamlabel">COLORS :</span> Red🔴 & White⚪
@@ -56,8 +55,8 @@ function Home() {
         
         
         <div className="kits">
-          <h1>2023/2024 Season Kits</h1>
-          <h2>Home & Away Kits </h2>
+          <h1 className="seasonkitstitle">2023/2024 Season Kits</h1>
+          <h2 className="homeawaykits">Home & Away Kits </h2>
           <img src={require("./home.png")} className="img-kits" alt="Fans" />
           <img src={require("./away.png")} className="img-kits" alt="Fans" />
         </div>
